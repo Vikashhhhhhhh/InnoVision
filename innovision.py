@@ -3,6 +3,7 @@ import tensorflow
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import numpy as np
+$ pip install -r requirements.txt
 
 
 model = tf.keras.models.load_model('C:/Users/vikas/Downloads/neuralnetwork.h5')
