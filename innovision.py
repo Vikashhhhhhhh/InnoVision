@@ -11,6 +11,7 @@ def main():
     #    data = file.read()
     # Why read requirements.txt? If you are trying to use it then it's better if you made try or except at the imports
 
+
     model = tf.keras.models.load_model('C:/Users/vikas/Downloads/neuralnetwork.h5')
 
     st.title("Burmese Handwriting to Text Recognition")
