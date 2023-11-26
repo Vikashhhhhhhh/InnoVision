@@ -3,7 +3,10 @@ import tensorflow
 import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import numpy as np
-
+# Open the file in read mode
+with open('requrements.txt', 'r') as file:
+    # Read the contents of the file
+    data = file.read()
 
 model = tf.keras.models.load_model('C:/Users/vikas/Downloads/neuralnetwork.h5')
 
